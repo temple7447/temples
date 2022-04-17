@@ -1,0 +1,16 @@
+{
+  "name": "css-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwind/style.css -o ./css/main.css",
+    "develop": "tailwindcss -i ./tailwind/style.css -o ./css/main.css  --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
